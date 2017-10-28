@@ -1,5 +1,10 @@
+
+import org.testng.annotations.Test;
+
 public class MainClass {
-    public static void main(String[] args) {
-        System.out.println("This is my print");
+    @Test
+    public void firstTestCase()
+    {
+        System.out.println("im in first test case from demoOne Class");
     }
 }
