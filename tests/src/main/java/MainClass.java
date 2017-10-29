@@ -12,7 +12,6 @@ public class MainClass {
     {
         String asd = SystemProperties.asd;
         System.out.println("Yigal Yigal " + asd);
-        System.out.println("im in first test case from demoOne Class");
 
     }
 

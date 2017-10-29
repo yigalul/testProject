@@ -42,12 +42,12 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>C:\Users\user\IdeaProjects\testProject\tests\resource\testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
-                    <systemPropertyVariables>
-                        <ptoperty>
-                            <name>ptoperty</name>
-                            <value>propertyValue</value>
-                        </ptoperty>
-                    </systemPropertyVariables>
+                    <systemProperties>
+                        <property>
+                            <name>key</name>
+                            <value>This is the value</value>
+                        </property>
+                    </systemProperties>
                 </configuration>
             </plugin>
         </plugins>
