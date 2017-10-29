@@ -9,6 +9,7 @@ public class MainClass {
     @Test
     public void firstTestCase()
     {
+        System.out.println("Yigal Yigal");
         System.out.println("im in first test case from demoOne Class");
     }
 
