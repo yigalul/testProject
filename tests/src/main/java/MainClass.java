@@ -10,8 +10,10 @@ public class MainClass {
     @Test
     public void firstTestCase()
     {
-        String asd = SystemProperties.asd;
+        String asd = SystemProperties.key;
+        String systemKey = SystemProperties.systemKey;
         System.out.println("Yigal Yigal " + asd);
+        System.out.println("systemKey " + systemKey );
 
     }
 
